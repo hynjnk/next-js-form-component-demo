@@ -1,7 +1,8 @@
 import React from "react";
 
-import { VanillaForm } from "./_components/VanillaWeatherForm";
-import { NextJsForm } from "./_components/NextJsWeatherForm";
+import { VanillaForm } from "./weather/_components/VanillaForm";
+import { NextJsForm } from "./weather/_components/NextJsForm";
+import { RockPaperScissorsForm } from "./_components/RockPaperScissorsForm";
 
 export default async function Home() {
   return (
@@ -11,6 +12,9 @@ export default async function Home() {
         <h2 className="text-lg font-semibold">action=&quot;/weather&quot;</h2>
         <VanillaForm />
         <NextJsForm />
+      </div>
+      <div className="bg-white p-6 rounded-lg border border-gray-200 flex flex-col gap-4 mt-4">
+        <RockPaperScissorsForm />
       </div>
     </div>
   );

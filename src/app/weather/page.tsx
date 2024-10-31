@@ -13,8 +13,8 @@ import {
   DailyForecastCard,
   DailyForecastCardSkeleton,
 } from "./_components/DailyForecastCard";
-import { VanillaForm } from "../_components/VanillaWeatherForm";
-import { NextJsForm } from "../_components/NextJsWeatherForm";
+import { VanillaForm } from "./_components/VanillaForm";
+import { NextJsForm } from "./_components/NextJsForm";
 
 const searchParamsSchema = z.object({
   city: z.string().optional(),

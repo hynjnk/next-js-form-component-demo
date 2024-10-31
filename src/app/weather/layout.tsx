@@ -1,5 +1,5 @@
-import { VanillaForm } from "../_components/VanillaWeatherForm";
-import { NextJsForm } from "../_components/NextJsWeatherForm";
+import { VanillaForm } from "./_components/VanillaForm";
+import { NextJsForm } from "./_components/NextJsForm";
 
 export default function WeatherLayout({
   children,
