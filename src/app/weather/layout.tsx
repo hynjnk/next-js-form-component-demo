@@ -1,5 +1,6 @@
 import { VanillaForm } from "./_components/VanillaForm";
 import { NextJsForm } from "./_components/NextJsForm";
+import { TransitionForm } from "./_components/TransitionForm";
 
 export default function WeatherLayout({
   children,
@@ -13,6 +14,7 @@ export default function WeatherLayout({
           app/weather/layout.tsx
         </h2>
         <VanillaForm />
+        <TransitionForm />
         <NextJsForm />
       </aside>
       {children}
